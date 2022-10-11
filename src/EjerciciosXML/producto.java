@@ -11,7 +11,7 @@ public class producto implements Serializable {
         this.codigo = codigo;
     }
 
-    public producto(int codigo,String descripcion, int unidades, int precio) {
+    public producto(int codigo, String descripcion, int unidades, int precio) {
         this.codigo = codigo;
         this.descripcion = descripcion;
         this.unidades = unidades;
