@@ -7,7 +7,7 @@ public class Ejercicio16 {
         Agenda agenda;
 
         File fichero = new File("agenda.dat"); //Creo el archivo
-        //FileOutputStream fileout = new FileOutputStream(fichero,true);  //Indico que voy a escribir en el archivo
+
         ObjectOutputStream dataOS; //Escribo un objeto en el archivo. Si no esta creado lo crea
         //y si existe lo sobreescribe
         if(!fichero.exists()){ //Si el archivo no existe crea uno nuevo

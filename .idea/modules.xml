@@ -3,6 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AccesoADatos.iml" filepath="$PROJECT_DIR$/AccesoADatos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ficheros/Ficheros.iml" filepath="$PROJECT_DIR$/Ficheros/Ficheros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FicherosCaracteres/FicherosCaracteres.iml" filepath="$PROJECT_DIR$/FicherosCaracteres/FicherosCaracteres.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PracticaEvaluableXML/PracticaEvaluableXML.iml" filepath="$PROJECT_DIR$/PracticaEvaluableXML/PracticaEvaluableXML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PracticaFicheros/PracticaFicheros.iml" filepath="$PROJECT_DIR$/PracticaFicheros/PracticaFicheros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Prueba/Prueba.iml" filepath="$PROJECT_DIR$/Prueba/Prueba.iml" />
     </modules>
   </component>
 </project>
