@@ -65,12 +65,5 @@ public class Ejercicio10ArrayDoubleyLectura {
                 System.out.println(e.getMessage());
             }
         }
-        DataInputStream lector=new DataInputStream(new FileInputStream("matriz.dat"));
-
-        System.out.println(lector.readInt());
-        System.out.println(lector.readInt());
-        System.out.println(lector.readDouble());
-
-
     }
 }

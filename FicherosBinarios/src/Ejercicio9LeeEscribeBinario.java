@@ -7,20 +7,19 @@ public class Ejercicio9LeeEscribeBinario {
 
     public static void main(String[] args) throws IOException {
 
-        Scanner teclado = new Scanner(System.in);
-        System.out.println("Introduce números enteros a almacenar: ");
-        int numeros = teclado.nextInt();
         File fichero = new File("datos.dat");
         DataOutputStream escribe= new DataOutputStream(new FileOutputStream(fichero));
-        escribe.writeInt(numeros);
+        Scanner teclado = new Scanner(System.in);
+        System.out.print("Introduce número entero. -1 para acabar: ");
+        int numeros = teclado.nextInt();
+
+        while (numeros != -1){
+            escribe.writeInt(numeros);
+            System.out.print("Introduce número entero. -1 para acabar: ");
+            numeros = teclado.nextInt();
+        }
+
         escribe.close();
-
-        DataInputStream lectura= new DataInputStream(new FileInputStream(fichero));
-
-        System.out.println("Numero almacenado: "+lectura.readInt());
-
-        lectura.close();
-
 
     }
 }
